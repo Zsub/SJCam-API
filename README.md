@@ -1,8 +1,11 @@
 # SJCam-API
 This repository will contain documentation on the SJCam WiFi APIs, such as for the SJCam 4000 WiFi and the SJCam 5000x Elite.
 
-#Base URL
+# Base URL
 `http://192.168.1.254`
+
+# Live preview
+`rtsp://192.168.1.254/xxx.mov`
 
 # File Management Panel 
 `GET   /                           file management panel`

@@ -4,6 +4,16 @@ This repository will contain documentation on the SJCam WiFi APIs, such as for t
 # Base URL
 `http://192.168.1.254`
 
+# Open ports
+I used nmap to see which ports are open. `8000` and `3333` don't seem to be functional, or at least I don't know how to connect to them (other than `telnet` which only gives me a blank screen).
+```
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+3333/tcp open  dec-notes
+8000/tcp open  http-alt
+```
+
 # Live preview
 `rtsp://192.168.1.254/xxx.mov`
 

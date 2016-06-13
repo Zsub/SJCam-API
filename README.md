@@ -1,6 +1,10 @@
 # SJCam-API
 This repository will contain documentation on the SJCam WiFi APIs, such as for the SJCam 4000 WiFi and the SJCam 5000x Elite.
 
+The documentation will be written in the [apiDoc](http://apidocjs.com)-system, and hopefully hosted through GitHub-pages. Anything under this line will have to be moved to `api.js`.
+
+---
+
 # Base URL
 `http://192.168.1.254`
 

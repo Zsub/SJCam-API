@@ -49,6 +49,7 @@ GET   /?custom=1&cmd=2001&par=0   stop recording
 3005 Set date (&str=YYYY-MM-DD)
 3006 Set time (&str=HH:MM:SS)
 3008 DV Language
+3019 Keepalive?
 ```
 
 /?custom=1&cmd=3001&par=4 - switch to timeing photo mode

@@ -40,35 +40,36 @@ GET   /?custom=1&cmd=2001&par=0   stop recording
 
 ## Other options
 ```
-2002 Resolution
-2003 Cyclic Record
-2004 WDR
-2006 Motion Detection
-2007 Audio
-2008 Date Stamp
-2010 Live View Size
-1004 Capture Mode
+1001 Take photo (in photo mode)
 1002 Image Size
+1004 Capture Mode
 1005 Quality
 1006 Sharpness
 1007 White Balance
 1008 Color
 1009 ISO
-2005 Exposure
 1011 Anti Shake
-3025 Frequency
-3026 Rotate
-3011 Reset to Defaults
-3010 Format
-3007 Auto Power Off
+2002 Resolution
+2003 Cyclic Record
+2004 WDR
+2005 Exposure
+2006 Motion Detection
+2007 Audio
+2008 Date Stamp
+2010 Live View Size
+3001 Switch mode
 3003 WiFiName
 3004 Password
 3005 Set date (&str=YYYY-MM-DD)
 3006 Set time (&str=HH:MM:SS)
+3007 Auto Power Off
 3008 DV Language
-3019 Keepalive?
+3010 Format
+3011 Reset to Defaults
 3014 List current settings?
-3001 Switch mode
+3019 Keepalive?
+3025 Frequency
+3026 Rotate
 ```
 
 /?custom=1&cmd=3001&par=4 - switch to timeing photo mode  

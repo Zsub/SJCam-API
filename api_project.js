@@ -1,0 +1,1 @@
+define({  "name": "SJCam-API",  "version": "0.1.0",  "description": "A work-in-progress documentation of the SJCam REST-API.",  "title": "SJCam-API Documentation",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2016-06-16T20:09:24.147Z",    "url": "http://apidocjs.com",    "version": "0.16.1"  }});

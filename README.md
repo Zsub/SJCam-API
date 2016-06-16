@@ -81,6 +81,7 @@ GET   /?custom=1&cmd=2001&par=0   stop recording
 ## WiFi client mode maybe
 http://www.gitup.com/en/blog/24_Git2-Wi-Fi-Client-Mode.html
 
-More info: 
-* [http://how-i-did-that.blogspot.com/search/label/SJCAM4000Wifi]
-* [http://www.rcgroups.com/forums/showpost.php?s=bdc0be9f330339f4a44c0f91c4b2d9a7&p=29634969&postcount=3156]
+# More info: 
+* http://how-i-did-that.blogspot.com/search/label/SJCAM4000Wifi
+* http://www.rcgroups.com/forums/showpost.php?s=bdc0be9f330339f4a44c0f91c4b2d9a7&p=29634969&postcount=3156
+* https://github.com/AdamLaurie/sjcam/blob/master/sj4000.py

@@ -3,6 +3,16 @@ This repository will contain documentation on the SJCam WiFi APIs, such as for t
 
 The documentation will be written in the [apiDoc](http://apidocjs.com)-system, and hopefully hosted through GitHub-pages. Anything under this line will have to be moved to `api.js`.
 
+# Create the docs
+1. checkout `master`
+2. make changes and commit
+3. checkout branch `gh-pages`
+4. `git show master:api.js > api.js`
+5. `git show master:apidoc.json > apidoc.json`
+6. `apidoc -f api.js -c apidoc.json -o .`
+7. `rm api.js; rm apidoc.json`
+8. commit and push to GitHub
+
 ---
 
 # Base URL

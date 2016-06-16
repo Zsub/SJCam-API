@@ -69,12 +69,15 @@ GET   /?custom=1&cmd=2001&par=0   stop recording
 3019 Keepalive?
 ```
 
-/?custom=1&cmd=3001&par=4 - switch to timeing photo mode
-/?custom=1&cmd=3001&par=3 - switch to timing video (video lapse) mode
-/?custom=1&cmd=3001&par=2 - switch to hdmi mode (probably)
-/?custom=1&cmd=3001&par=1 - switch to video mode
-/?custom=1&cmd=3001&par=0 - switch to photo mode
-/?custom=1&cmd=1001 - take photo in photo mode
+/?custom=1&cmd=3001&par=4 - switch to timeing photo mode  
+/?custom=1&cmd=3001&par=3 - switch to timing video (video lapse) mode  
+/?custom=1&cmd=3001&par=2 - switch to hdmi mode (probably)  
+/?custom=1&cmd=3001&par=1 - switch to video mode  
+/?custom=1&cmd=3001&par=0 - switch to photo mode  
+/?custom=1&cmd=1001 - take photo in photo mode  
+
+## WiFi client mode maybe
+http://www.gitup.com/en/blog/24_Git2-Wi-Fi-Client-Mode.html
 
 More info: 
 * [http://how-i-did-that.blogspot.com/search/label/SJCAM4000Wifi]

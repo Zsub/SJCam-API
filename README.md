@@ -4,6 +4,7 @@ This repository will contain documentation on the SJCam WiFi APIs, such as for t
 The documentation will be written in the [apiDoc](http://apidocjs.com)-system, and hosted through GitHub-pages at http://zsub.github.io/SJCam-API. Despite using a `js` file, there is no 'real' javascript in the repository. The javascript file is simply the container so ApiDocJS can generate the documentation.  
 
 # Create the docs
+
 1. checkout `master`
 2. make changes and commit
 3. checkout branch `gh-pages`
@@ -14,6 +15,7 @@ The documentation will be written in the [apiDoc](http://apidocjs.com)-system, a
 8. commit and push to GitHub
 
 Anything under this line will have to be moved to `api.js` eventually. Any info that is described in `api.js` will be removed from here.
+
 ---
 
 # Base URL

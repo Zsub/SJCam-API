@@ -1,7 +1,7 @@
 # SJCam-API
 This repository will contain documentation on the SJCam WiFi APIs, such as for the SJCam 4000 WiFi and the SJCam 5000x Elite.
 
-The documentation will be written in the [apiDoc](http://apidocjs.com)-system, and hopefully hosted through GitHub-pages. Anything under this line will have to be moved to `api.js`.
+The documentation will be written in the [apiDoc](http://apidocjs.com)-system, and hosted through GitHub-pages at http://zsub.github.io/SJCam-API. Despite using a `js` file, there is no 'real' javascript in the repository. The javascript file is simply the container so ApiDocJS can generate the documentation.  
 
 # Create the docs
 1. checkout `master`
@@ -13,6 +13,7 @@ The documentation will be written in the [apiDoc](http://apidocjs.com)-system, a
 7. `rm api.js; rm apidoc.json`
 8. commit and push to GitHub
 
+Anything under this line will have to be moved to `api.js` eventually. Any info that is described in `api.js` will be removed from here.
 ---
 
 # Base URL

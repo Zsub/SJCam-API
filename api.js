@@ -14,6 +14,14 @@
  * 														8=14M. Note that the sjcam zone app
  * 														actually thinks 1.3M and VGA are switched.
  * @apiGroup Photos
+ * @apiSuccess {number} Cmd the command number
+ * @apiSuccess {number} Status the number 0
+ * @apiSuccessExample {xml} Success-Response:
+ * &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+ * &lt;Function&gt;
+ *     &lt;Cmd&gt;1002&lt;/Cmd&gt;
+ *     &lt;Status&gt;0&lt;/Status&gt;
+ * &lt;/Function&gt;
  */
 
 /**

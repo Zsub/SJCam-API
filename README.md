@@ -16,11 +16,9 @@ In order to verify that the commands indeed work as intended, or to discover new
 
 1. checkout `master`
 2. make changes and commit
-3. checkout branch `gh-pages`
-4. `git show master:api.js > api.js`
-5. `git show master:apidoc.json > apidoc.json`
-6. `apidoc -f api.js -c apidoc.json -o .`
-7. `rm api.js; rm apidoc.json`
+3. checkout branch `gh-pages` in `../SJCam-API-gh-pages`
+6. `apidoc -f api.js -c apidoc.json -o ../SJCam-API-gh-pages/`
+1. `cd ../SJCam-API-gh-pages`
 8. commit and push to GitHub
 
 Anything under this line will have to be moved to `api.js` eventually. Any info that is described in `api.js` will be removed from here.

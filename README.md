@@ -1,7 +1,16 @@
 # SJCam-API
 This repository will contain documentation on the SJCam WiFi APIs, such as for the SJCam 4000 WiFi and the SJCam 5000x Elite.
 
-The documentation will be written in the [apiDoc](http://apidocjs.com)-system, and hosted through GitHub-pages at http://zsub.github.io/SJCam-API. Despite using a `js` file, there is no 'real' javascript in the repository. The javascript file is simply the container so ApiDocJS can generate the documentation.  
+The documentation will be written in the [apiDoc](http://apidocjs.com)-system, and hosted through GitHub-pages at http://zsub.github.io/SJCam-API. Despite using a `js` file, there is no 'real' javascript in the repository. The javascript file is simply the container so ApiDocJS can generate the documentation.
+
+# Capturing device traffic
+In order to verify that the commands indeed work as intended, or to discover new commands, you can use your iPhone with the sjcam zone app and simply capture the network traffic between the iPhone and the camera. This is done by way of a Remote Virtual Interface. The following steps have been adopted from http://useyourloaf.com/blog/remote-packet-capture-for-ios-devices/.
+
+1. Plug your iDevice in via USB
+1. Obtain the UDID via Xcode or iTunes
+1. Use this command to create the virtual interface: `rvictl -s <udid>`
+1. Start WireShark and start a capture on the newly created interface, probably named something like `rvi0`
+1. Use the sjcam zone app on your iDevice to operate your camera and note the HTTP calls that happen, correlating them to your actions
 
 # Create the docs
 

@@ -70,7 +70,9 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 2007 Audio
 2008 Date Stamp
 2010 Live View Size
+2015 ? From packet capture
 2016 ? From packet capture
+2019 Videolapse set time between shot, 0=1s, 1=2s, 2=5s, 3=10s, 4=30s, 5=60s
 3001 Switch mode
 3003 WiFiName
 3004 Password
@@ -87,6 +89,8 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 3025 Frequency
 3026 Rotate
 3027 ? From packet capture
+4003 ? From Android sjcam zone app, seems playback related, stream recorded video from cam to phone 
+8001 ? From Android sjcam zone app
 ```
 
 /?custom=1&cmd=3001&par=4 - switch to timeing photo mode  

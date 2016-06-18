@@ -54,8 +54,8 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 
 ## Other options
 ```
-1004 Capture Mode ?
-1005 Quality
+1004 Capture Mode ? Doesn't seem to work
+1005 Quality ? Haven't been able to get this from the official app
 1006 Sharpness
 1007 White Balance
 1008 Color

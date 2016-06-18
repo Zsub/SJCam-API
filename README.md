@@ -61,9 +61,6 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 1008 Color
 1009 ISO
 1011 Anti Shake
-2001 Start/stop recording (par=1 start par=0 stop) 
-2002 Resolution
-2003 Cyclic Record
 2004 WDR
 2005 Exposure
 2006 Motion Detection
@@ -76,16 +73,12 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 3001 Switch mode
 3003 WiFiName
 3004 Password
-3005 Set date (&str=YYYY-MM-DD)
-3006 Set time (&str=HH:MM:SS)
-3007 Auto Power Off
 3008 DV Language
 3010 Format
 3011 Reset to Defaults
 3012 ? From packet capture
 3014 List current settings?
 3016 Status Mode? (which mode?)
-3019 Keepalive?
 3025 Frequency
 3026 Rotate
 3027 ? From packet capture

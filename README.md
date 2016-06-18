@@ -43,8 +43,6 @@ all options follow the template:
 Command - setting/mode of the device
 Option - usually 0/1, but when more settings are supported theres a few more numbers for different menu items
 
- WARNING: Thee settings don't seem to take effect until you either start recording, or you turn the camera on/off.
-
 ## Other options
 ```
 1001 Take photo (in photo mode)

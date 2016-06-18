@@ -54,8 +54,6 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 
 ## Other options
 ```
-1001 Take photo (in photo mode)
-1002 Image Size
 1004 Capture Mode ?
 1005 Quality
 1006 Sharpness

@@ -47,7 +47,7 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 ```
 1001 Take photo (in photo mode)
 1002 Image Size
-1004 Capture Mode
+1004 Capture Mode ?
 1005 Quality
 1006 Sharpness
 1007 White Balance
@@ -63,6 +63,7 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 2007 Audio
 2008 Date Stamp
 2010 Live View Size
+2016 ? From packet capture
 3001 Switch mode
 3003 WiFiName
 3004 Password
@@ -72,10 +73,13 @@ Option - usually 0/1, but when more settings are supported theres a few more num
 3008 DV Language
 3010 Format
 3011 Reset to Defaults
+3012 ? From packet capture
 3014 List current settings?
+3016 Status Mode? (which mode?)
 3019 Keepalive?
 3025 Frequency
 3026 Rotate
+3027 ? From packet capture
 ```
 
 /?custom=1&cmd=3001&par=4 - switch to timeing photo mode  
